@@ -26,7 +26,7 @@ public class Boletín21 {
         base = Double.parseDouble(JOptionPane.showInputDialog("Introduce base: "));
         altura = Double.parseDouble(JOptionPane.showInputDialog("Introduce altura: "));
        
-        System.out.println("El area del triángulo de base " + base + "cm y altura " + altura + "cm es igual a " + base * altura/2 + "cm.");
+        System.out.println("El area del triángulo de base " + base + "cm y altura " + altura + "cm es igual a " + base * altura/2 + "cm².");
                
              
     }
