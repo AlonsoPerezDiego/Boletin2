@@ -24,7 +24,7 @@ public class Boletín22 {
        
         lado = Double.parseDouble(JOptionPane.showInputDialog("Introduce el lado: "));
         
-        System.out.println("El area del cuadrado de lado " + lado + "cm es igual a " + lado * lado + "cm.");
+        System.out.println("El area del cuadrado de lado " + lado + "cm es igual a " + lado * lado + "cm².");
 
     }
     
