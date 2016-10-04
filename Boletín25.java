@@ -20,7 +20,7 @@ public class Boletín25 {
         
         System.out.println("Para pasar de millas náuticas a metros introduce:");
         
-        final float Millas_Metros = 1852;
+        final float MILLAS_METROS = 1852;
         double millasNauticas;
         
         millasNauticas = Double.parseDouble(JOptionPane.showInputDialog("Las millas que se quíeren pasar a metros: "));
