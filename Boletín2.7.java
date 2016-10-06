@@ -6,7 +6,7 @@ public class Boletín27 {
 
     public static void main(String[] args) {
     
-    JOptionPane.showMessageDialog(null, "Para calcualar el alquiler mensual:");
+    JOptionPane.showMessageDialog(null, "Para calcualar a renda mensual:");
         
     double n, i, t, m;
     
@@ -16,7 +16,7 @@ public class Boletín27 {
     i = i/1200;
     m = Math.pow((1+i), (t*12));
     
-    JOptionPane.showMessageDialog(null, "El alquiler mensual es de " + (n * m * i / (m - 1) ) + "€.");
+    JOptionPane.showMessageDialog(null, "A renda mensual é de " + (n * m * i / (m - 1) ) + "€.");
     }
     
 }
