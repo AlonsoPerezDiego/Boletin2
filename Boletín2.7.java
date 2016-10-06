@@ -10,9 +10,9 @@ public class Boletín27 {
         
     double n, i, t, m;
     
-    n = Float.parseFloat(JOptionPane.showInputDialog("El nominal es:"));
-    i = Float.parseFloat(JOptionPane.showInputDialog("El interés anual en tanto por ciento es:"));
-    t = Float.parseFloat(JOptionPane.showInputDialog("El tiempo en años es:"));
+    n = Float.parseFloat(JOptionPane.showInputDialog("O nominal é:"));
+    i = Float.parseFloat(JOptionPane.showInputDialog("O interese anual en tanto por cento é:"));
+    t = Float.parseFloat(JOptionPane.showInputDialog("O tempo en anos é:"));
     i = i/1200;
     m = Math.pow((1+i), (t*12));
     
