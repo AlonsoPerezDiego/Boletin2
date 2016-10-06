@@ -15,7 +15,7 @@ public class Boletín211 {
         ventas = Float.parseFloat(JOptionPane.showInputDialog("Número de ventas realizadas:"));
         distancia = Float.parseFloat(JOptionPane.showInputDialog("Distancia en kilometros recorrida:"));
         
-        JOptionPane.showMessageDialog(null,"El sueldo líquido de " + sueldoF + "€ de sueldo fijo, " + distancia + "km recorridos, en " + tiempo + " días y " + ventas + " ventas realizadas es igual a " + (float)(sueldoF + ventas*COMISION/100 + EUROSKM*distancia + DIETAS*tiempo) + "€." );
+        JOptionPane.showMessageDialog(null,"El sueldo líquido de " + sueldoF + "€ de sueldo fijo, " + distancia + "km recorridos, en " + tiempo + " días y " + ventas + " ventas realizadas es igual a " + (sueldoF + ventas*COMISION/100 + EUROSKM*distancia + DIETAS*tiempo) + "€." );
     }
     
 }
